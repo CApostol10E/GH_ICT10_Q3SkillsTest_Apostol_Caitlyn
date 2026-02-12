@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">;
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>;
+    <title>ACCOUNT CREATION</title>
+</head>
+<body>
+<form id="ACCOUNT CREATION"> 
+    <label for="username">Username (min 7 chars):</label><br> <input type="text" id="username" name="username"><br> 
+    <label for="password">Password (min 10 chars, 1 letter, 1 number):</label><br> 
+    <input type="password" id="password" name="password"><br>
+    <button type="button" py-click="validate()">Sign Up</button> </form> <div id="result"></div> <py-script> def validate(): username = Element("username").value password = Element("password").value result = Element("result")    
+    <py-script src="main.py"></py-script>
+</body>
+</html>
